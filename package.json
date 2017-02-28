@@ -1,0 +1,23 @@
+{
+  "name": "phantomjs-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "author": "Kazuki Suda <kazuki.suda@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "phantom": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2016": "^6.22.0",
+    "eslint": "^3.16.1",
+    "eslint-plugin-async-await": "^0.0.0"
+  },
+  "scripts": {
+    "start": "babel-node main.js",
+    "lint": "eslint main.js"
+  }
+}
